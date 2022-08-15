@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+/*diseño de header*/
+.encabezado{
+    background-color: rgb(193, 255, 148, 100);
+    position: sticky;
+}
+.dropdown-menu{
+    background-color: rgb(224, 185, 191) ;
+}
+.img2{
+    transition: all 2s ease;
+}
+.img2 img:hover{
+    transform: scale(1.1, 1.1);
+}
+.centro1{
+    background-image: linear-gradient(to right, white, pink, rgb(248, 139, 248), violet) ;
+}
+.izquierda1{
+    background-color: rgb(202, 158, 165);
+    padding: 1.2rem;
+}
+/*diseño footer*/
+.footer{
+    background-color: rgba(34, 34, 112, 0.733);
+    color: rgba(202, 210, 214, 0.747);;
+}
+.faceLogo{
+    transition: all 1s ease;
+}
+.faceLogo:hover{
+    transform: scale(1.2, 1.2);
+}
+.instaLogo{
+    transition: all 1s ease;
+}
+.instaLogo:hover{
+    transform: scale(1.2, 1.2);
+}
+.p-0{
+    color: white;
+}
+/*diseño de página 2*/
+.nosotros{
+    background-color:#bd4f6c;
+    background-image: linear-gradient(326deg, #bd4f6c 0%, #d7826ac0 74%);
+}
+.centro2{
+    background-color: rgba(245, 245, 220, 0.397);
+    margin: 50px;
+    width: 95%;
+    color: white;
+}
+
+.izquierda2{
+    background-color: rgba(46, 46, 46, 0.747);
+    color: rgb(226, 248, 248);
+    
+    
+}
+.derecha1{
+    background-color: rgba(46, 46, 46, 0.747);
+    color: rgb(226, 248, 248);
+    
+}
+.izquierda3{
+    background-color: rgba(46, 46, 46, 0.747);
+    color: rgb(226, 248, 248);
+    margin: 50px;
+    width: 90%;
+}
+/*diseño de página 3*/
+.fondo1{
+    background-image:url(./media/ecofri.jpg);
+    margin: 50px;
+    width: 95%;
+}
+.centro3{
+    background-color: rgba(46, 46, 46, 0.747); 
+    color: rgb(226, 248, 248);
+    transition: all 2s ease;
+    height: 300px;
+    overflow: auto;
+}
+.centro3:hover{
+    height: 600px;
+    background-color: rgba(61, 60, 60, 0.452);
+}
+.imagenIngredientes{
+    transition: all 2s ease;
+}
+.imagenIngredientes:hover{
+    transform: scale(1.2, 1.2);
+}
+.izquierda4{
+    background-color: rgba(46, 46, 46, 0.747);
+    color: rgb(226, 248, 248);
+    height: 750px;
+    overflow: auto;
+}
+/*diseño de página 4*/
+.izquierda5{
+    background-color: rgba(46, 46, 46, 0.747);
+    color: rgb(226, 248, 248);
+    height: 750px;
+    overflow: auto; 
+}
+.card-body{
+    background-color:beige;
+}
+/*diseño de página 5*/
+.centro4{
+    background-color: rgba(46, 46, 46, 0.747); 
+    color: rgb(226, 248, 248);
+    height: 300px;
+    overflow: auto;  
+}
